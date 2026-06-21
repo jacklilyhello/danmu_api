@@ -18,9 +18,9 @@ export const HTML_TEMPLATE = /* html */ `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogVar弹幕API</title>
-    <link rel="icon" type="image/jpg" href="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg">
-    <link rel="apple-touch-icon" href="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg">
+    <title>Lilyemby弹幕API</title>
+    <link rel="icon" type="image/jpg" href="https://photo.lily.lat/file/AgACAgQAAyEGAASLgSpZAAIQM2m2c_u4IvRkkY16PMHPL6Vd45yKAAKLDGsbTNixUTZkBiBDpzqBAQADAgADeQADOgQ.png">
+    <link rel="apple-touch-icon" href="https://photo.lily.lat/file/AgACAgQAAyEGAASLgSpZAAIQM2m2c_u4IvRkkY16PMHPL6Vd45yKAAKLDGsbTNixUTZkBiBDpzqBAQADAgADeQADOgQ.png">
     <style>${baseCssContent}</style>
     <style>${componentsCssContent}</style>
     <style>${formsCssContent}</style>
@@ -37,8 +37,8 @@ export const HTML_TEMPLATE = /* html */ `
         <div class="header">
             <div class="header-left">
                 <div class="logo-title-container">
-                    <div class="logo"><img src="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg" width="500"/></div>
-                    <h1>LogVar弹幕API</h1>
+                    <div class="logo"><img src="https://photo.lily.lat/file/AgACAgQAAyEGAASLgSpZAAIQM2m2c_u4IvRkkY16PMHPL6Vd45yKAAKLDGsbTNixUTZkBiBDpzqBAQADAgADeQADOgQ.png" width="500"/></div>
+                    <h1>Lilyemby弹幕API</h1>
                 </div>
                 <div class="version-info">
                     <span class="version-badge">当前版本: <span id="current-version">v${globals.version}</span></span>
@@ -338,25 +338,6 @@ export const HTML_TEMPLATE = /* html */ `
             </form>
         </div>
     </div>
-
-    <!-- 项目声明 -->
-    <footer class="footer">
-        <p class="footer-text">
-            一个人人都能部署的基于 js 的弹幕 API 服务器，支持爱优腾芒哔咪人韩巴狐乐西埋帆弹幕直接获取，兼容弹弹play的搜索、详情查询和弹幕获取接口规范，并提供日志记录，支持vercel/netlify/edgeone/cloudflare/docker/hf等部署方式，不用提前下载弹幕，没有nas或小鸡也能一键部署。
-        </p>
-        <p class="footer-text">本项目仅为个人学习爱好开发，代码开源。如有任何侵权行为，请联系本人删除。</p>
-        <p class="footer-text">本项目完全免费，不收取任何费用，请勿上当受骗。</p>
-        <p class="footer-links">
-            <a href="https://t.me/ddjdd_bot" target="_blank" class="footer-link">💬 TG MSG ROBOT</a>
-            <a href="https://t.me/logvar_danmu_group" target="_blank" class="footer-link">👥 TG GROUP</a>
-            <a href="https://t.me/logvar_danmu_channel" target="_blank" class="footer-link">📢 TG CHANNEL</a>
-            <a href="https://github.com/huangxd-/danmu_api" target="_blank" class="footer-link github-link">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="github-icon">
-                GitHub Repo
-            </a>
-        </p>
-        <p>有问题提issue或私信机器人都ok</p>
-    </footer>
 
     <script>
         ${mainJsContent}
